@@ -8,6 +8,7 @@ body {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -35,6 +36,10 @@ h2 {
     position: relative;
     background-color: orange;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
   }
   
   .topnav a {
@@ -60,19 +65,16 @@ h2 {
 
 main {
     background-color: white;
+    margin-top: 50px;
 }
 
-.div{
-   display: flex;
-   flex-wrap: wrap;
-   margin-left: g00px;
-   
-}
 .about-me{
   text-align: center;
   float:left;
   font-size: 20px;
+ 
 }
+
 .my-work{
   text-align: center;
   float:inline-end;
@@ -80,13 +82,15 @@ main {
 }
 
 .contact-information{
-  text-align: center;
+  text-align:center;
   float:inline-end;
   font-size: 20px;
+  font-weight: bolder;
 }
 
 .resume{
   text-align: center;
+  font-weight: bolder;
   font-size: 20px;
   margin-bottom: 20px;
 }
@@ -97,14 +101,13 @@ img{
     box-align:center;
     display: flex;
     flex-wrap: wrap; 
-    margin-left: 500px;
-    padding-right: 10px;
+    margin-left: 300px;
+    padding-right: 5px;
     
 }
 
 p{
     font-size: 20px;
-    margin-left: 500px;
 }
   
 footer{
@@ -114,6 +117,7 @@ footer{
   padding-left: 600px;
   display: flex;
 }
+
 span {
   font-size: 200%;
   align-content: center;
