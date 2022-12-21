@@ -4,6 +4,8 @@
 
 I created a Portfolio that shows the knowledge that I have retained so far in the class. I created an index.html file which structured the website to use nav link in the header for users to direct them to sections(About Me, My Work, Contact Information, Resume) that I had assigned them. Once started my first section, About Me, included a picture of me going super saiyan (lol it's a joke), then a paragraph about me and my upbring. Ihe second section, My Work, I included a image that is also set up as a link to deploy to my website to give the viewer a visualization of projects that i have created or worked on. In the third section, Contact Information, I was able to list out and create links inorder for the user to see my GitHub and Linkedin page, also to contact me directly to my email and phone number. In the fourth and last section, Resume, I linked a website to my resume with all my credentials. My style.css file was created and used to accessorize the index.html file in order for the website to be appealing the the viewer with light tones and visual prefrences with the images and text being margined to the left of the headers.
 
+https://j-pohahau5.github.io/My-Portfolio/
+
 ## Installation
 
 In order to install or open my link you would have to click on the link below to deploy the live website I've created. (simple way to deploy or open my link)
