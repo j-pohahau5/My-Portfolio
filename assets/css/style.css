@@ -28,7 +28,7 @@ h1 {
 h2 {
     margin: 2% 0;
     font-size: 200%; 
-    color:rgb(78, 78, 228);
+    color: orange;
     text-align:left;
 }
 
@@ -64,8 +64,8 @@ h2 {
   
 
 main {
-    background-color: white;
-    margin-top: 50px;
+    background-image:-webkit-radial-gradient(orange,grey, teal);
+    
 }
 
 .about-me{
@@ -112,9 +112,9 @@ p{
   
 footer{
   background-color: Grey;
+  color: orange;
   line-height: 2;
-  align-content: center;
-  padding-left: 600px;
+  padding-left: 750px;
   display: flex;
 }
 
