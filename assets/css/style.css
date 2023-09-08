@@ -3,7 +3,6 @@ body {
     flex-direction: column;
     line-height: 1.2;
     text-align: left;
-    
 }
 
 header {
@@ -69,17 +68,29 @@ main {
 }
 
 .about-me{
-  text-align: center;
-  float:left;
-  font-size: 20px;
- 
+  text-align: justify;
+  width: [width of img];
+  margin-left: 2%;
+  margin-right: 2%;
 }
+
+.about-me img{
+  display: block;
+  margin: 0 auto;
+}
+
 
 .my-work{
   text-align: center;
   float:inline-end;
   font-size: 20px;
 }
+
+.my-work img{
+  display: block;
+  margin: 0 auto;
+}
+
 
 .contact-information{
   text-align:center;
@@ -121,6 +132,4 @@ footer{
 span {
   font-size: 200%;
   align-content: center;
-
-
 }
