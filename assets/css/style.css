@@ -64,6 +64,8 @@ h2 {
 
 main {
     background-image:-webkit-radial-gradient(orange,grey, teal);
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -82,7 +84,8 @@ main {
 
 .my-work{
   text-align: center;
-  float:inline-end;
+  display: block;
+  float:inline-start;
   font-size: 20px;
 }
 
@@ -94,7 +97,8 @@ main {
 
 .contact-information{
   text-align:center;
-  float:inline-end;
+  display: block;
+  float:inline-start;
   font-size: 20px;
   font-weight: bolder; 
 }
